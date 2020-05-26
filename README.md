@@ -6,5 +6,8 @@ git clone https://github.com/cybernude/cockpit-api.git
 
 cd cockpit-api
 
-
 npm i
+tsc
+-------------------------------------------------------------------
+nodemon bin/www
+tsc -w
